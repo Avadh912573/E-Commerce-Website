@@ -51,16 +51,16 @@ This project is a modern and responsive E-commerce web application designed to p
 ## Technologies Used
 Frontend
 
-HTML
-CSS
-Bootstrap
-JavaScript
-jQuery
+-HTML
+-CSS
+-Bootstrap
+-JavaScript
+-jQuery
 
 Backend
-PHP
+-PHP
 
 Database
-MySQL
+-MySQL
 
 
