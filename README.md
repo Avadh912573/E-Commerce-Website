@@ -48,8 +48,7 @@ This project is a modern and responsive E-commerce web application designed to p
 - Open browser: `http://localhost:8080/ecommerce/frontend/ecommerce.html`.
 - Admin panel: `http://localhost/E-commerce-website/admin/` (login route depends on project routes).
 
-## Technologies Used
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 ### 🎨 Frontend
 - HTML5
