@@ -49,18 +49,19 @@ This project is a modern and responsive E-commerce web application designed to p
 - Admin panel: `http://localhost/E-commerce-website/admin/` (login route depends on project routes).
 
 ## Technologies Used
-Frontend
+## 🛠️ Tech Stack
 
--HTML
--CSS
--Bootstrap
--JavaScript
--jQuery
+### 🎨 Frontend
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- jQuery
 
-Backend
--PHP
+### ⚙️ Backend
+- PHP
 
-Database
--MySQL
+### 🗄️ Database
+- MySQL
 
 
