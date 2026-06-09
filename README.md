@@ -1,66 +1,154 @@
-# E-Commerce-Website
-This project is a modern and responsive E-commerce web application designed to provide a seamless online shopping experience. Users can browse products, search and filter items, add products to their cart, place orders, and manage their accounts.
- The platform includes secure authentication, product management, shopping cart functionality, order tracking, and an admin dashboard for inventory and order management.
+# 🛒 E-Commerce Website
 
-## Quickstart
+A modern and responsive E-Commerce web application designed to provide a seamless online shopping experience. Users can browse products, search and filter items, add products to their cart, place orders, and manage their accounts. The platform includes secure authentication, product management, shopping cart functionality, order tracking, and an admin dashboard for inventory and order management.
 
-1. Clone the repo:
-   git clone https://github.com/Avadh912573/E-Commerce-Website.git
-2. Import DB schema:
-   - Use `database/table.sql` to create tables and sample data.
-3. Configure:
-   - Copy `config/google.local.php` from `config/google.php` and set credentials if using OAuth.
-   - Edit `config/conn.php` with your MySQL credentials.
-4. Serve:
-   - Place project in your local webroot (XAMPP: `C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\ecommerce`) and visit `http://localhost:8080/ecommerce/frontend/ecommerce.html`.
+---
 
-## Requirements
+## ✨ Features
 
-- PHP 8.0+
-- PDO extension (pdo_mysql)
-- MySQL 5.7+ / MariaDB
-- Composer (optional for dev tooling)
-- Node.js + npm (optional for building assets)
-- Tailwind CLI (if customizing CSS)
+* User Authentication & Authorization
+* Product Search and Filtering
+* Shopping Cart Management
+* Order Placement & Tracking
+* Admin Dashboard
+* Inventory Management
+* Responsive User Interface
+* Secure Database Integration
 
-## Environment & Configuration
+---
 
-- config/conn.php — database connection (PDO). Enable exceptions and set proper charset (utf8mb4).
-- config/google.php / config/google.local.php — Google OAuth configuration (optional).
-- For production:
-  - Disable PHP error display.
-  - Set cookie options to secure and use HTTPS.
-  - Store secrets outside webroot or use environment variables.
+## 🚀 Quick Start
 
-## Installation (detailed)
+### Clone the Repository
 
-1. Ensure MySQL is running.
-2. Import schema:
-   mysql -u root -p your_db_name < database/table.sql
-3. Update `config/conn.php`:
-   - DSN, username, password, options (ERRMODE_EXCEPTION).
-4. Seed admin user (if not included in SQL) via INSERT into `admins` table or use included seed script.
+```bash
+git clone https://github.com/Avadh912573/E-Commerce-Website.git
+cd E-Commerce-Website
+```
 
-## Running Locally (Windows / XAMPP)
+### Import Database Schema
 
-- Copy project to `C:\Program Files\Apache Software Foundation\Tomcat 11.0\webapps\ecommerce`.
-- Start Apache & MySQL via XAMPP Control Panel.
-- Open browser: `http://localhost:8080/ecommerce/frontend/ecommerce.html`.
-- Admin panel: `http://localhost/E-commerce-website/admin/` (login route depends on project routes).
+* Import `database/table.sql` into MySQL.
+* This will create the required tables and sample data.
+
+### Configure the Application
+
+* Edit `config/conn.php` with your MySQL credentials.
+* If using Google OAuth:
+
+  * Copy `config/google.php`
+  * Create `config/google.local.php`
+  * Add your Google OAuth credentials
+
+### Run the Project
+
+1. Place the project inside your web server directory.
+2. Start Apache/Tomcat and MySQL.
+3. Open:
+
+```text
+http://localhost:8080/ecommerce/frontend/ecommerce.html
+```
+
+---
+
+## 📋 Requirements
+
+* PHP 8.0+
+* MySQL 5.7+ / MariaDB
+* PDO MySQL Extension (`pdo_mysql`)
+* Apache/Tomcat Server
+* Composer (Optional)
+* Node.js & npm (Optional)
+* Tailwind CLI (Optional)
+
+---
+
+## ⚙️ Installation
+
+### 1. Start MySQL
+
+Ensure that MySQL is running.
+
+### 2. Import Database
+
+```bash
+mysql -u root -p your_database_name < database/table.sql
+```
+
+### 3. Configure Database Connection
+
+Update the following file:
+
+```text
+config/conn.php
+```
+
+Set:
+
+* Database Name
+* Username
+* Password
+* PDO Options
+
+### 4. Seed Admin Account
+
+If not already included in the SQL file, create an admin user manually.
+
+---
 
 ## 🛠️ Technologies Used
 
 ### 🎨 Frontend
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- jQuery
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
 
 ### ⚙️ Backend
-- PHP
+
+* PHP
 
 ### 🗄️ Database
-- MySQL
 
+* MySQL
 
+---
+
+## 🔒 Security Recommendations
+
+For Production Deployment:
+
+* Disable PHP error display
+* Enable HTTPS
+* Use Secure Cookies
+* Store secrets outside the web root
+* Use Environment Variables for credentials
+
+---
+
+## 📂 Project Structure
+
+```text
+E-Commerce-Website/
+│
+├── frontend/
+├── admin/
+├── config/
+├── database/
+├── assets/
+├── README.md
+└── ...
+```
+
+---
+
+## 👨‍💻 Author
+
+**Avadhesh Kumar Bind**
+
+B.Tech CSE (AI) | Galgotias University
+
+GitHub: https://github.com/Avadh912573
