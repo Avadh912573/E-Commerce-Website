@@ -5,7 +5,7 @@ This project is a modern and responsive E-commerce web application designed to p
 ## Quickstart
 
 1. Clone the repo:
-   git clone https: https://github.com/AvadheshKumarBind/ecommerce.git
+   git clone https://github.com/Avadh912573/E-Commerce-Website.git
 2. Import DB schema:
    - Use `database/table.sql` to create tables and sample data.
 3. Configure:
